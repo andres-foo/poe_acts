@@ -49,6 +49,7 @@ p.content {
     padding:8px 0;
     cursor:default;
     word-wrap: break-word;
+    font-size: 1em;
 }
 .area-contents .content:not(:last-child) {
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
@@ -64,7 +65,7 @@ p.content {
     content:"☆";
 }
 span {
-    display:inline-block;
+    font-size: 1em;
 }
 /* TAGS */
 .waypoint, .boss, .connection, .quest, .trial, .hideout, .recipe, .npc {
