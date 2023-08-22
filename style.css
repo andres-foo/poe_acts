@@ -54,15 +54,13 @@ p.content {
 .area-contents .content:not(:last-child) {
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
 }
-.required::before, .semi-required::before {
+.required::before {
     color:#FFF;
     margin-left:-20px;
-}
-.required::before {
     content:"★";
 }
-.semi-required::before {
-    content:"☆";
+.ignore {
+    text-decoration: line-through;
 }
 span {
     font-size: 1em;
